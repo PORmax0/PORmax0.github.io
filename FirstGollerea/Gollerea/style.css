@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb( 43, 177, 214), rgb( 12, 53, 91));
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 10px 1px(0, 0, 0, 0.4);
+}
+
+img:hover{
+    transform: rotate(-4deg) scale(1.15);
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.6);
+}
+
+.imageBox{
+    margin: auto;
+    column-count: 2;
+    column-gap: 0;
+    width: 80%;
+    max-width: 1200px; 
+}
+
+.imageWrapper{
+    display: block;
+}
+
+.imageWrapper + .imageWrapper{
+    margin:20px
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+    font-family: Edu+TAS+Beginner;
+}
